@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Controls.LabelControl">
+    <StackLayout Padding="20">
+        <Label Text="Undurline" TextDecorations="Underline"></Label>
+        <Label Text="Undurline" TextDecorations="Strikethrough"></Label>
+        <Label Text="Undurline" TextDecorations="Underline,Strikethrough"></Label>
+
+        <Label 
+            LineBreakMode="TailTruncation"
+            MaxLines="4"
+            Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type"               
+               ></Label>
+
+
+        <Label LineBreakMode="WordWrap">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span TextColor="Red" Text="Lorem ipsum     "/>
+                    <Span TextDecorations="Underline" Text="dolor sit   "/>
+                    <Span BackgroundColor="Yellow" Text="   is simply dummy text   "/>
+                    <Span FontSize="Large" Text="of the printing and typesetting  "/>
+                    <Span Text="link" TextColor="Blue" TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding TapCommand}" 
+                                                  CommandParameter="https://twitter.com/ademcskn_">
+                            </TapGestureRecognizer>
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+
+        </Label>
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "07f7abc8-c997-4940-be99-4c99160d3cdd": {
+      "ProjectGuid": "07f7abc8-c997-4940-be99-4c99160d3cdd",
+      "DisplayName": "XamarinMobile",
+      "ColorIndex": 0
+    },
+    "1dd06f1a-2e77-422d-9619-414811ec6443": {
+      "ProjectGuid": "1dd06f1a-2e77-422d-9619-414811ec6443",
+      "DisplayName": "XamarinMobile.Android",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "78b574f2-8a76-4d14-aad7-30b26a27597d": {
+      "ProjectGuid": "78b574f2-8a76-4d14-aad7-30b26a27597d",
+      "DisplayName": "XamarinMobile.iOS",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

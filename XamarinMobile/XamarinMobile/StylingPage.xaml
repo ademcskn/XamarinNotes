@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.StylingPage">
+
+    <ContentPage.Resources>
+        <Color x:Key="GreenBgColor">#007bff</Color>
+        <Color x:Key="RedBgColor">#dc3545</Color>
+        <Color x:Key="GrayBgColor">Gray</Color>
+
+    </ContentPage.Resources>
+
+    <Grid Padding="20,40" BackgroundColor="{StaticResource Key=PageBgColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Entry 
+            x:Name="subject"
+            Focused="HandleSubject"
+            Unfocused="HandleSubject"
+            Grid.Row="0"></Entry>
+        <StackLayout Grid.Row="1" Padding="1" BackgroundColor="Silver">
+            <Editor x:Name="editor"  VerticalOptions="FillAndExpand"></Editor>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" Grid.Row="2">
+            <Button Text="Submit" Style="{StaticResource button}"></Button>
+            <Button Text="Cancel" Style="{StaticResource cancelbutton}"></Button>
+        </StackLayout>
+    </Grid>
+</ContentPage>

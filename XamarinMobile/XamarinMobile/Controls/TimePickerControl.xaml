@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Controls.TimePickerControl">
+    <StackLayout Padding="40">
+        <Entry x:Name="_entry" Placeholder="Enter Comment"/>
+
+        <TimePicker Format="T"
+                    x:Name="timePicker"
+                    Time="11:00:00"
+                    PropertyChanged="Handle_Changed"
+                    />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Enable" VerticalOptions="Center"/>
+            <Switch x:Name="_switch" HorizontalOptions="EndAndExpand" Toggled="Handle_Switch"/>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

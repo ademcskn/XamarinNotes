@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "vfQg2q4/f0IBxXNOGwmZ6TirCeO3E3O6PGgZ0Wea8qy2zprKpDKZ1kwNWBizj68nw7kuNdCI/8YO8gvFwQJ/7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\devel\\source\\repos\\XamarinMobile\\XamarinMobile\\XamarinMobile\\XamarinMobile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

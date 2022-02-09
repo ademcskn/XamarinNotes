@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ouc/9HTXDFHLSBm9/ZU/3NYXhHNaiTO+9eG/RG8trWvkNzA6MuzTY0P5fAFVQ2VWjA4nYiPl2Po3bofUWmXgkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\devel\\source\\repos\\XamarinMobile\\XamarinMobile\\XamarinMobile.iOS\\XamarinMobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devel\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\devel\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

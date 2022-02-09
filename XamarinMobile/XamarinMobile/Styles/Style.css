@@ -1,0 +1,26 @@
+﻿contentpage {
+    padding: 30;
+}
+
+stacklayout {
+    background-color: red;
+}
+
+.header {
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin: 5;
+    padding: 5;
+}
+
+entry {
+    color: blue;
+    text-align: left;
+    padding: 15;
+}
+
+image {
+    width: 200;
+    height: 160;
+}

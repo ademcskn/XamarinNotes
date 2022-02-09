@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.FontIconsControl">
+    <StackLayout Padding="40">
+        <Label LineBreakMode="WordWrap">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="&#x41;" FontSize="100" TextColor="Red" FontFamily="{StaticResource FontAwesomeRegular}"/>
+                    <Span Text="&#x44;" FontSize="100" TextColor="Green" FontFamily="{StaticResource FontAwesomeRegular}"/>
+                    <Span Text="&#x45;" FontSize="100" TextColor="Black" FontFamily="{StaticResource FontAwesomeRegular}"/>
+                    <Span Text="&#x4d;" FontSize="100" TextColor="Blue" FontFamily="{StaticResource FontAwesomeRegular}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>

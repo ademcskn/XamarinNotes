@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Controls.PickerControl">
+
+    <StackLayout Padding="40">
+        <Picker Title="Select a Model" x:Name="modelsPicker" SelectedIndexChanged="Handle_SelectedIndexChanged">
+            <!--<Picker.Items>
+                <x:String>Opel</x:String>
+                <x:String>Mazda</x:String>
+                <x:String>Mercedes</x:String>
+                <x:String>Citroen</x:String>
+            </Picker.Items>-->
+        </Picker>
+        <!--<Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="{Binding Source={x:Reference modelsPicker},Path=SelectedIndex}"/>
+                    <Span Text=" - "/>
+                    <Span Text="{Binding Source={x:Reference modelsPicker},Path=SelectedItem}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>-->
+        <Label x:Name="lblResult"/>
+    </StackLayout>
+</ContentPage>

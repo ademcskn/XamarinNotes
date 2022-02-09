@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.App">
+    <Application.Resources>
+        <Color x:Key="PageBgColor">#e2e3e5</Color>
+        <Color x:Key="InputTextColor">Red</Color>
+        <Color x:Key="InputPlaceHolderColor">Silver</Color>
+        <x:String x:Key="SubjectPlaceHolder">Enter Subject</x:String>
+        <Color x:Key="BtnTextColor">White</Color>
+        <FontAttributes x:Key="BtnFontStyle">Bold</FontAttributes>
+        <Color x:Key="BtnSubmitBgColor">#007bff</Color>
+        <Color x:Key="BtnCancelBgColor">#dc3545</Color>
+
+
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{StaticResource BtnSubmitBgColor}"></Setter>
+            <Setter Property="TextColor" Value="White"></Setter>
+            <Setter Property="FontAttributes" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="Medium"></Setter>
+        </Style>
+
+        <Style x:Key="button" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{StaticResource BtnSubmitBgColor}"></Setter>
+            <Setter Property="TextColor" Value="White"></Setter>
+            <Setter Property="FontAttributes" Value="Bold"></Setter>
+        </Style>
+
+        <Style x:Key="cancelbutton" TargetType="Button" BasedOn="{StaticResource button}">
+            <Setter Property="BackgroundColor" Value="#dc3545"></Setter>
+        </Style>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesomeRegular">
+                <On Platform="Android" Value="Font Awesome 6 Free-Regular-400.otf#Font Awesome 6 Free Regular"></On>
+                <On Platform="iOS" Value="Font Awesome 6 Free"></On>
+            </OnPlatform>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

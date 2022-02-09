@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.CssPage">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/Style.css"></StyleSheet>
+        <StyleSheet>
+            <![CDATA[
+            #btnSubmit {
+                background-color: green;
+            }
+            ]]>
+        </StyleSheet>
+    </ContentPage.Resources>
+
+    <StackLayout StyleClass="header">
+        <Label Text="Css in Xamarin Forms"></Label>
+        <Image Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jVh73hI8jKwwin7VYf-p1orQIaQFE7kmkQ&amp;usqp=CAU"></Image>
+        <Entry></Entry>
+        <Button Text="Sumbit" StyleId="btnSubmit"></Button>
+    </StackLayout>
+</ContentPage>

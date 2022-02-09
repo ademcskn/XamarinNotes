@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Controls.DatePickerControl">
+    <StackLayout Padding="40">
+        <Label Text="Start Date"/>
+        <DatePicker x:Name="startDate" DateSelected="Handle_Date" MaximumDate="{Binding Source={x:Reference endDate},Path=Date}"/>
+        <Label Text="End Date"/>
+        <DatePicker x:Name="endDate" DateSelected="Handle_Date" MinimumDate="{Binding Source={x:Reference startDate},Path=Date}"/>
+
+        <Label x:Name="lblResult"/>
+    </StackLayout>
+</ContentPage>

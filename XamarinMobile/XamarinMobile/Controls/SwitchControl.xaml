@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Controls.SwitchControl">
+    <StackLayout Padding="40">
+        <Switch x:Name="toggle" IsToggled="True" OnColor="DarkOrange" ThumbColor="Red" Toggled="Handle_Toggle"/>
+        <Label x:Name="lblResult"/>
+        <Label Text="Xamarin" IsVisible="{Binding Source={x:Reference toggle}, Path=IsToggled}"/>
+    </StackLayout>
+</ContentPage>

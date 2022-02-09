@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Controls.EntryControl">
+
+    <StackLayout>
+        <Entry x:Name="name" Placeholder="Enter Name" ReturnType="Next" Keyboard="Text" TextChanged="Handle_Changed" IsSpellCheckEnabled="True" IsTextPredictionEnabled="True"/>
+        <Entry x:Name="surname" Placeholder="Enter Surname" PlaceholderColor="Green" ReturnType="Next" Completed="Handle_Completed" Keyboard="Chat"/>
+        <Entry x:Name="email" Placeholder="Enter Email" IsReadOnly="True"  Text="developeradem@hotmail.com" ReturnType="Next" IsEnabled="False"/>
+        <Entry x:Name="password" Placeholder="Enter Password" MaxLength="7" IsPassword="True" Keyboard="Numeric" ReturnType="Done"/>
+        <Entry x:Name="phone" Placeholder="Enter Phone Number" MaxLength="11" Keyboard="Telephone" />
+        <Label x:Name="labelText"/>
+        <Editor BackgroundColor="Yellow" VerticalOptions="FillAndExpand"/>
+        <Button Text="Submit"/>
+    </StackLayout>
+</ContentPage>
