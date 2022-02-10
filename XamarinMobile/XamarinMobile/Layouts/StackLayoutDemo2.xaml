@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.StackLayoutDemo2">
+
+    <StackLayout>
+        <Label Text="Photo Gallery" TextColor="Black" Margin="20"></Label>
+        <Image Source="https://picsum.photos/id/237/800/700" Aspect="Fill"></Image>
+        <StackLayout Orientation="Horizontal" Spacing="20" Padding="15,0">
+            <Button Text="Like"></Button>
+            <Button Text="Comment"></Button>
+            <Button Text="Share"></Button>
+        </StackLayout>
+        <StackLayout Padding="10" Spacing="20">
+            <BoxView HeightRequest="1" BackgroundColor="#f0f0f0"></BoxView>
+            <Label Text="150 Likes" FontAttributes="Bold"></Label>
+            <Label TextColor="#666" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></Label>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

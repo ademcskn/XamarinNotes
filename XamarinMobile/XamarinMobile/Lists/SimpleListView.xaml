@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Lists.SimpleListView">
+
+    <ListView x:Name="listview" SeparatorVisibility="Default" SeparatorColor="Red">
+        <ListView.Header>
+            <StackLayout>
+                <Label Text="header" TextColor="Orange" BackgroundColor="Gray"/>
+            </StackLayout>
+        </ListView.Header>
+        <ListView.Footer>
+            <StackLayout>
+                <StackLayout>
+                    <Label Text="footer" TextColor="Orange" BackgroundColor="Gray"/>
+                </StackLayout>
+            </StackLayout>
+        </ListView.Footer>
+    </ListView>
+</ContentPage>

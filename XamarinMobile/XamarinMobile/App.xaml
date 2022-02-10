@@ -13,7 +13,7 @@
         <Color x:Key="BtnCancelBgColor">#dc3545</Color>
 
 
-        <Style TargetType="Button">
+        <Style x:Key="btn" TargetType="Button">
             <Setter Property="BackgroundColor" Value="{StaticResource BtnSubmitBgColor}"></Setter>
             <Setter Property="TextColor" Value="White"></Setter>
             <Setter Property="FontAttributes" Value="Bold"></Setter>

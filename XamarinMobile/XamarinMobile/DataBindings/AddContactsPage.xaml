@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:XamarinMobile.Converters"
+             x:Class="XamarinMobile.DataBindings.AddContactsPage"
+             Padding="0,40">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="DarkOrange"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="FontSize" Value="16"></Setter>
+            </Style>
+            <Style TargetType="Switch">
+                <Setter Property="ThumbColor" Value="DarkOrange"></Setter>
+                <Setter Property="OnColor" Value="Orange"></Setter>
+            </Style>
+            <converters:IntToBoolConverter x:Key="intToBool">
+
+            </converters:IntToBoolConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView>
+        <StackLayout Padding="10" Spacing="20">
+            <Label Text="Name"/>
+            <Entry Text="{Binding Name}" Placeholder="FullName"/>
+
+            <Label Text="Phone"/>
+            <Entry Text="{Binding Phone}" Placeholder="Phone" Keyboard="Telephone"/>
+
+            <Label Text="WebSite"/>
+            <Entry x:Name="txtWebSite" Text="{Binding WebSite}" Placeholder="WebSite" Keyboard="Email"/>
+
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Favorite"/>
+                <Switch IsToggled="{Binding Favorite}" />
+            </StackLayout>
+
+            <Label Text="{Binding DisplayMessage}"/>
+
+            <Button Text="Open WebSite" 
+                    IsEnabled="{Binding Source={x:Reference txtWebSite},Path=Text.Length,Converter={StaticResource intToBool}}" 
+                    Command="{Binding LaunchWebSiteCommand}"
+                    />
+            <Button Text="Save Contact"
+                    Command="{Binding SaveContactCommand}"
+                    />
+
+            <ActivityIndicator IsRunning="{Binding IsBusy}">
+
+            </ActivityIndicator>
+
+            <StackLayout BackgroundColor="Yellow">
+                <Label Text="{Binding Name,StringFormat='Your name is: {0}'}"/>
+                <Label Text="{Binding Phone,StringFormat='Your phone number is {0:(000) 000-0000}'}" />
+                <Label Text="{Binding WebSite, StringFormat='https://{0}'}" />
+                <StackLayout BindingContext="{Binding DateAdded}">
+                    <Label Text="{Binding}"/>
+                    <Label Text="{Binding StringFormat='short date: {0:d}'}"/>
+                    <Label Text="{Binding StringFormat='long date: {0:D}'}"/>
+                    <Label Text="{Binding StringFormat='{0:dd/MM/yyyy}'}"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:models="clr-namespace:XamarinMobile.Models"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.DataBindings.NotifyProperyChangedDemo">
+    <ContentPage.BindingContext>
+        <models:NotifyViewModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="40">
+        <Entry Text="{Binding Name}" Placeholder="Enter Name"/>
+        <Label Text="{Binding DisplayName}"/>
+    </StackLayout>
+</ContentPage>

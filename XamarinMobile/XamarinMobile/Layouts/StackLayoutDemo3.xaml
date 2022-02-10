@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.StackLayoutDemo3">
+    <ScrollView>
+        <StackLayout>
+            <StackLayout Padding="0,20">
+                <Label Text="Akıllı Saatler" TextColor="#fe9801" HorizontalOptions="Center" FontSize="30" Padding="10"></Label>
+                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                    <Image Source="https://productimages.hepsiburada.net/s/25/550/10126736588850.jpg/format:webp"></Image>
+                    <StackLayout>
+                        <Label Text="Samsung Galaxy Watch Active (Siyah)" FontAttributes="Bold"></Label>
+                        <Label Text="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet"></Label>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label Text="9999" TextColor="#fe9801" FontAttributes="Bold" VerticalOptions="Center" FontSize="20"></Label>
+                            <Button Text="Ürünü İncele"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Padding="0,10" Orientation="Horizontal" BackgroundColor="White">
+                <Image Source="https://productimages.hepsiburada.net/s/25/550/10126736588850.jpg/format:webp"></Image>
+                <StackLayout>
+                    <Label Text="Samsung Galaxy Watch Active (Siyah)" FontAttributes="Bold"></Label>
+                    <Label Text="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="9999" TextColor="#fe9801" FontAttributes="Bold" VerticalOptions="Center" FontSize="20"></Label>
+                        <Button Text="Ürünü İncele"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout  Padding="0,10" Orientation="Horizontal" BackgroundColor="White">
+                <Image Source="https://productimages.hepsiburada.net/s/25/550/10126736588850.jpg/format:webp"></Image>
+                <StackLayout>
+                    <Label Text="Samsung Galaxy Watch Active (Siyah)" FontAttributes="Bold"></Label>
+                    <Label Text="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="9999" TextColor="#fe9801" FontAttributes="Bold" VerticalOptions="Center" FontSize="20"></Label>
+                        <Button Text="Ürünü İncele"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout  Padding="0,10" Orientation="Horizontal" BackgroundColor="White">
+                <Image Source="https://productimages.hepsiburada.net/s/25/550/10126736588850.jpg/format:webp"></Image>
+                <StackLayout>
+                    <Label Text="Samsung Galaxy Watch Active (Siyah)" FontAttributes="Bold"></Label>
+                    <Label Text="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="9999" TextColor="#fe9801" FontAttributes="Bold" VerticalOptions="Center" FontSize="20"></Label>
+                        <Button Text="Ürünü İncele"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout  Padding="0,10" Orientation="Horizontal" BackgroundColor="White">
+                <Image Source="https://productimages.hepsiburada.net/s/25/550/10126736588850.jpg/format:webp"></Image>
+                <StackLayout>
+                    <Label Text="Samsung Galaxy Watch Active (Siyah)" FontAttributes="Bold"></Label>
+                    <Label Text="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet"></Label>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="9999" TextColor="#fe9801" FontAttributes="Bold" VerticalOptions="Center" FontSize="20"></Label>
+                        <Button Text="Ürünü İncele"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

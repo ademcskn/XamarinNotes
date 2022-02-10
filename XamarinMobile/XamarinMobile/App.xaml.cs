@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinMobile.Controls;
 using XamarinMobile.DataBindings;
+using XamarinMobile.Lists;
 
 namespace XamarinMobile
 {
@@ -36,7 +37,14 @@ namespace XamarinMobile
             //MainPage = new ImageControl();
             //MainPage = new FontIconsControl();
             //MainPage = new ActivityIndicatorControl();
-            MainPage = new BasicBindings();
+            //MainPage = new BasicBindings();
+            //MainPage = new NotifyProperyChangedDemo();
+            //MainPage = new AddContactsPage();
+            //MainPage = new SimpleListView();
+            //MainPage = new ModelBinding();
+            //MainPage = new ViewCells();
+            //MainPage = new ObservableData();
+            MainPage = new GroupingItems();
         }
 
         protected override void OnStart()

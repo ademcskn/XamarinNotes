@@ -27,16 +27,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="StackLayoutDemo3.xaml.cs">
+    <Compile Update="Layouts\StackLayoutDemo3.xaml.cs">
       <DependentUpon>StackLayoutDemo3.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AbsoluteDemo.xaml">
+    <EmbeddedResource Update="DataBindings\AddContactsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="AbsoluteDemo2.xaml">
+    <EmbeddedResource Update="DataBindings\NotifyProperyChangedDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Layouts\AbsoluteDemo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Layouts\AbsoluteDemo2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Controls\ActivityIndicatorControl.xaml">
@@ -78,7 +84,7 @@
     <EmbeddedResource Update="DataBindings\BasicBindings.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="FlexLayout.xaml">
+    <EmbeddedResource Update="Layouts\FlexLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="FlyoutPage1Detail.xaml">
@@ -93,19 +99,34 @@
     <EmbeddedResource Update="Controls\FontIconsControl.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="RelativeLayout.xaml">
+    <EmbeddedResource Update="Layouts\RelativeLayout.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="RelativeLayout2.xaml">
+    <EmbeddedResource Update="Layouts\RelativeLayout2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StackLayoutDemo3.xaml">
+    <EmbeddedResource Update="Layouts\StackLayoutDemo3.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StackLayoutDemo.xaml">
+    <EmbeddedResource Update="Layouts\StackLayoutDemo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="StackLayoutDemo2.xaml">
+    <EmbeddedResource Update="Layouts\StackLayoutDemo2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Lists\GroupingItems.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Lists\ModelBinding.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Lists\ObservableData.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Lists\SimpleListView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Lists\ViewCells.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="StylingPage.xaml">

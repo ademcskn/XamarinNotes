@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.AbsoluteDemo"
+             >
+    <ScrollView>
+        <AbsoluteLayout>
+            <Image Source="https://technotoday.com.tr/wp-content/uploads/2019/12/Gear_FA-Galaxy-Watch-Active2_Aluminum_40mm_Aqua-Black.jpg"
+           Aspect="AspectFill"
+           AbsoluteLayout.LayoutBounds="0,0,1,0.8"
+           AbsoluteLayout.LayoutFlags="All"                
+           ></Image>
+            <BoxView
+            Color="White"
+            CornerRadius="40"
+            AbsoluteLayout.LayoutBounds="0,0.8,1,200"
+            AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+            ></BoxView>
+            <StackLayout
+            AbsoluteLayout.LayoutBounds="0,0.8,1,200"
+            AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+            Padding="40"
+            Spacing="15"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            >
+                <Label Text="Samsung Galaxy Watch" FontSize="28" FontAttributes="Bold"></Label>
+                <Label Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,m Ipsum." FontSize="14"></Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="2099 TL" TextColor="#f39801" FontAttributes="Bold" FontSize="24"></Label>
+                    <Label Text="3999 TL" TextColor="#5d5b6a" TextDecorations="Strikethrough" FontSize="20"></Label>
+                </StackLayout>
+                <Button Font="18" Text="Add To Cart" BackgroundColor="#263f44" TextColor="White" FontAttributes="Bold"></Button>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>
