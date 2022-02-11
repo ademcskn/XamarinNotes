@@ -6,7 +6,6 @@
               GroupDisplayBinding="{Binding Title}" 
               GroupShortNameBinding="{Binding ShortName}" 
               IsGroupingEnabled="True" 
-              HasUnevenRows="False" 
               BackgroundColor="White">
         <ListView.ItemTemplate>
             <DataTemplate>

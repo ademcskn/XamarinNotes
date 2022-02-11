@@ -46,3 +46,6 @@ C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Lists\ObservableData.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Lists\GroupingItems.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Lists\ListViewEvents.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Lists\AddingButtons.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Lists\ContextActions.xaml.g.cs

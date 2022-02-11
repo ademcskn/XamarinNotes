@@ -44,7 +44,11 @@ namespace XamarinMobile
             //MainPage = new ModelBinding();
             //MainPage = new ViewCells();
             //MainPage = new ObservableData();
-            MainPage = new GroupingItems();
+            //MainPage = new GroupingItems();
+            //MainPage = new ListViewEvents();
+            //MainPage = new ListViewEvents();
+            //MainPage = new AddingButtons();
+            MainPage = new ContextActions();
         }
 
         protected override void OnStart()
