@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.TabbedPageMenu"
+            xmlns:local="clr-namespace:XamarinMobile.Navigations;assembly=XamarinMobile"
+            >
+    <TabbedPage.Children>
+        <local:FirstPage Title="First" IconImageSource="settings.png"/>
+        <NavigationPage Title="Page 2" IconImageSource="first.png">
+            <x:Arguments>
+                <local:FirstPage />
+            </x:Arguments>
+        </NavigationPage>
+        <ContentPage Title="Page 3" IconImageSource="first.png">
+            <Label Text="Page 3" HorizontalOptions="Center" VerticalOptions="Center">
+            </Label>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

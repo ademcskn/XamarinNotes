@@ -14,7 +14,7 @@ namespace XamarinMobile.Navigations {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Navigations\\MasterDetailPageMenu.xaml")]
-    public partial class MasterDetailPageMenu : global::Xamarin.Forms.MasterDetailPage {
+    public partial class MasterDetailPageMenu : global::Xamarin.Forms.FlyoutPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView listview;

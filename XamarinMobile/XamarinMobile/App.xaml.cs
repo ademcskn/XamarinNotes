@@ -54,7 +54,9 @@ namespace XamarinMobile
             //MainPage = new NavigationPage(new MasterPage());
             //MainPage = new NavigationPage(new ListViewMenu());
             //MainPage = new NavigationPage(new TableViewMenu());
-            MainPage = new MasterDetailPageMenu();
+            //MainPage = new MasterDetailPageMenu();
+            //MainPage = new TabbedPageMenu();
+            MainPage = new CarouselPageSample();
         }
 
         protected override void OnStart()

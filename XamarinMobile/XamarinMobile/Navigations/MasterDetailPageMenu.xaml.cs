@@ -10,7 +10,7 @@ using XamarinMobile.Models;
 
 namespace XamarinMobile.Navigations
 {
-    public partial class MasterDetailPageMenu : MasterDetailPage
+    public partial class MasterDetailPageMenu : FlyoutPage
     {
         List<MasterDetailItem> menulist;
         public MasterDetailPageMenu()

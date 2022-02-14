@@ -28,6 +28,7 @@ namespace XamarinMobile.Navigations
                 Director = "Yöneticisi"
             };
             await Navigation.PushAsync(new SecondPage(name, movie));
+            //await Navigation.PushModalAsync(new SecondPage(name, movie));
 
             //kullanıcıyla etkileşime girebilecek bir sayfa açmak istediğimizde Modal eklentisini koyabiliriz...
             //await Navigation.PushAsync(new SecondModelPage(name, movie));
