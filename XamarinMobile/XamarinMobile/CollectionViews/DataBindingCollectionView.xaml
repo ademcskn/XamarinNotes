@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:template ="clr-namespace:XamarinMobile.CollectionViews"
+             x:Class="XamarinMobile.CollectionViews.DataBindingCollectionView">
+    <ContentPage.Resources>
+        <DataTemplate x:Key="movieDataTemplate">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.RowSpan="2"
+                       Source="{Binding ImageUrl}"
+                       HeightRequest="70"
+                       WidthRequest="70"/>
+                <Label Grid.Column="1"
+                       Text="{Binding Name}"/>
+                <Label Grid.Column="1"
+                           Grid.Row="1"
+                           VerticalOptions="End"
+                       Text="{Binding Director}"/>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="populerMovieDataTemplate">
+            <Grid BackgroundColor="Green" Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.RowSpan="2"
+                       Source="{Binding ImageUrl}"
+                       HeightRequest="70"
+                       WidthRequest="70"/>
+                <Label Grid.Column="1"
+                       Text="{Binding Name}"/>
+                <Label Grid.Column="1"
+                           Grid.Row="1"
+                           VerticalOptions="End"
+                       Text="{Binding Director}"/>
+            </Grid>
+        </DataTemplate>
+        <template:MovieDataTemplateSelector x:Key="movieSelector" 
+                                            MovieDataTemplate="{StaticResource movieDataTemplate}"
+                                            PopulerMovieDataTemplate="{StaticResource populerMovieDataTemplate}"
+                                            />
+    </ContentPage.Resources>
+    <CollectionView x:Name="movieList" 
+                    ItemTemplate="{StaticResource movieSelector}">
+        <CollectionView.Header>
+            <StackLayout BackgroundColor="LightGray">
+                <Label Margin="20,40" Text="Movies" FontAttributes="Bold"/>
+            </StackLayout>
+        </CollectionView.Header>
+        <CollectionView.ItemsLayout>
+            <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="20" HorizontalItemSpacing="30" />
+            <!--<LinearItemsLayout Orientation="Horizontal" ItemSpacing="40"/>-->
+        </CollectionView.ItemsLayout>
+        <CollectionView.Footer>
+            <StackLayout BackgroundColor="LightGray">
+                <Label Margin="20,40" Text="20 Movies" FontAttributes="Bold"/>
+            </StackLayout>
+        </CollectionView.Footer>
+    </CollectionView>
+</ContentPage>

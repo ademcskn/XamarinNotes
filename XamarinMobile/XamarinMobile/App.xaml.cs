@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinMobile.CollectionViews;
 using XamarinMobile.Controls;
 using XamarinMobile.DataBindings;
 using XamarinMobile.Lists;
@@ -56,7 +57,9 @@ namespace XamarinMobile
             //MainPage = new NavigationPage(new TableViewMenu());
             //MainPage = new MasterDetailPageMenu();
             //MainPage = new TabbedPageMenu();
-            MainPage = new CarouselPageSample();
+            //MainPage = new CarouselPageSample();
+            //MainPage = new SimpleCollectionView();
+            MainPage = new DataBindingCollectionView();
         }
 
         protected override void OnStart()

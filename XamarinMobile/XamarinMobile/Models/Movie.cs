@@ -11,5 +11,6 @@ namespace XamarinMobile.Models
         public string Director { get; set; }
         public string ImageUrl { get; set; }
         public string Description { get; set; }
+        public double Raiting { get; set; }
     }
 }
