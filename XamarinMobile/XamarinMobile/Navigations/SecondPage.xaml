@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Navigations.SecondPage"
+             Title="Second Page">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label HorizontalOptions="Center" x:Name="lblResult" />
+        <Label HorizontalOptions="Center" Text="{Binding Name}" />
+        <Label HorizontalOptions="Center" Text="{Binding Description}" />
+        <Label HorizontalOptions="Center" Text="{Binding Director}" />
+        <Label Text="Second Page" />
+        <Button Text="Next Page" Clicked="Next_Click" />
+        <Button Text="Previous Page" Clicked="Previous_Click" />
+    </StackLayout>
+</ContentPage>

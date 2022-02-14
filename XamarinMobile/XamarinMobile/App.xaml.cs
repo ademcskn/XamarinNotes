@@ -4,6 +4,7 @@ using Xamarin.Forms.Xaml;
 using XamarinMobile.Controls;
 using XamarinMobile.DataBindings;
 using XamarinMobile.Lists;
+using XamarinMobile.Navigations;
 
 namespace XamarinMobile
 {
@@ -48,7 +49,9 @@ namespace XamarinMobile
             //MainPage = new ListViewEvents();
             //MainPage = new ListViewEvents();
             //MainPage = new AddingButtons();
-            MainPage = new ContextActions();
+            //MainPage = new ContextActions();
+            //MainPage = new NavigationPage(new FirstPage());
+            MainPage = new NavigationPage(new MasterPage());
         }
 
         protected override void OnStart()
