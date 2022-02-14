@@ -51,7 +51,10 @@ namespace XamarinMobile
             //MainPage = new AddingButtons();
             //MainPage = new ContextActions();
             //MainPage = new NavigationPage(new FirstPage());
-            MainPage = new NavigationPage(new MasterPage());
+            //MainPage = new NavigationPage(new MasterPage());
+            //MainPage = new NavigationPage(new ListViewMenu());
+            //MainPage = new NavigationPage(new TableViewMenu());
+            MainPage = new MasterDetailPageMenu();
         }
 
         protected override void OnStart()

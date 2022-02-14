@@ -13,6 +13,10 @@ namespace XamarinMobile.Navigations
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SecondPage : ContentPage
     {
+        public SecondPage()
+        {
+            InitializeComponent();
+        }
         public SecondPage(string name,Movie movie)
         {
             InitializeComponent();
