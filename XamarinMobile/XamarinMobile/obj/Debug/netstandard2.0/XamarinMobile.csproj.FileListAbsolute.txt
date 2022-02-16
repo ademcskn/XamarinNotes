@@ -61,3 +61,9 @@ C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Navigations\CarouselPageSample.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\CollectionViews\SimpleCollectionView.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\CollectionViews\DataBindingCollectionView.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MovieList.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\SingleSelectionPage.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MultipleSelectionPage.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\SinglePreSelection.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MultiplePreSelection.xaml.g.cs

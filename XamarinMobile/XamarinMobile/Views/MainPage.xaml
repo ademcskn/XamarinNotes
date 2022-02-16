@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns:views="clr-namespace:XamarinMobile.Views"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Views.MainPage">
+
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection Title="Selections">
+                <TextCell Text="Movie List" 
+                          Detail="Text" 
+                          Command="{Binding NavigateCommand}" 
+                          CommandParameter="{x:Type views:MovieList}" />
+                <TextCell Text="Single Selection" 
+                          Detail="Text" 
+                          Command="{Binding NavigateCommand}" 
+                          CommandParameter="{x:Type views:SingleSelectionPage}" />
+                <TextCell Text="Multiple Selection" 
+                          Detail="Text" 
+                          Command="{Binding NavigateCommand}" 
+                          CommandParameter="{x:Type views:MultipleSelectionPage}" />
+                <TextCell Text="Single Pre-Selection" 
+                          Detail="Text" 
+                          Command="{Binding NavigateCommand}" 
+                          CommandParameter="{x:Type views:SinglePreSelection}" />
+                <TextCell Text="Multiple Pre-Selection" 
+                          Detail="Text" 
+                          Command="{Binding NavigateCommand}" 
+                          CommandParameter="{x:Type views:MultiplePreSelection}" />
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

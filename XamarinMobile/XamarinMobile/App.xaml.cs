@@ -6,6 +6,7 @@ using XamarinMobile.Controls;
 using XamarinMobile.DataBindings;
 using XamarinMobile.Lists;
 using XamarinMobile.Navigations;
+using XamarinMobile.Views;
 
 namespace XamarinMobile
 {
@@ -55,11 +56,13 @@ namespace XamarinMobile
             //MainPage = new NavigationPage(new MasterPage());
             //MainPage = new NavigationPage(new ListViewMenu());
             //MainPage = new NavigationPage(new TableViewMenu());
-            //MainPage = new MasterDetailPageMenu();
+            //MainPage = new MasterDetailPageMenu(); 
             //MainPage = new TabbedPageMenu();
             //MainPage = new CarouselPageSample();
             //MainPage = new SimpleCollectionView();
-            MainPage = new DataBindingCollectionView();
+            //MainPage = new DataBindingCollectionView();
+            //MainPage = new MovieList();
+            MainPage = new NavigationPage(new Views.MainPage());
         }
 
         protected override void OnStart()
