@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.AppShell"
+       >
+    <FlyoutItem Title="Filmler" FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Yabancı Filmler">
+            <ShellContent Title="Macera">
+                <ContentPage>
+                    <Label Text="Macera filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent Title="Komedi">
+                <ContentPage>
+                    <Label Text="Komedi filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent Title="Gerilim">
+                <ContentPage>
+                    <Label Text="Gerilim filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent Title="Bilim Kurgu">
+                <ContentPage>
+                    <Label Text="Bilim kurgu filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </ContentPage>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Diziler" >
+        <ShellContent Title="Komedi">
+            <ContentPage>
+                <Label Text="Komedi dizileri" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </ContentPage>
+        </ShellContent>
+    </FlyoutItem>
+    <FlyoutItem Title="Belgeseller" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Doğa Belgeselleri">
+            <ContentPage>
+                <Label Text="Doğa belgeseli" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </ContentPage>
+        </ShellContent>
+    </FlyoutItem>
+</Shell>

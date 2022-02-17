@@ -62,7 +62,8 @@ namespace XamarinMobile
             //MainPage = new SimpleCollectionView();
             //MainPage = new DataBindingCollectionView();
             //MainPage = new MovieList();
-            MainPage = new NavigationPage(new Views.MainPage());
+            //MainPage = new NavigationPage(new Views.MainPage());
+            MainPage = new AppShell();
         }
 
         protected override void OnStart()

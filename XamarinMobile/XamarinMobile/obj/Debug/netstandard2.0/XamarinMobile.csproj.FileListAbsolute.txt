@@ -1,6 +1,5 @@
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
-C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\ref\XamarinMobile.dll
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
@@ -67,3 +66,5 @@ C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MultipleSelectionPage.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\SinglePreSelection.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MultiplePreSelection.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll

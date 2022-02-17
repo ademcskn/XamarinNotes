@@ -1,2 +1,2 @@
-AdbTarget=-s R58M33H5X7E
+AdbTarget=-s emulator-5554
 AdbOptions=
