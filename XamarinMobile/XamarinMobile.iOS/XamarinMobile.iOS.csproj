@@ -149,4 +149,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\pexels-image.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg.jpg" />
+  </ItemGroup>
 </Project>

@@ -631,3 +631,4 @@ C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\ob
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\obj\Debug\120\res\drawable\bg.jpg

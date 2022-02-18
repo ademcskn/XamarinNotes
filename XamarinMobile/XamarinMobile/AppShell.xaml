@@ -1,10 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:controls="clr-namespace:XamarinMobile.Controls"
+             xmlns:navigation="clr-namespace:XamarinMobile.Navigations"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinMobile.AppShell"
+             x:Class="XamarinMobile.AppShell"   
+       FlyoutBackgroundImage="bg.jpg" FlyoutBackgroundImageAspect="Fill"
+       FlyoutIcon="menu.png" FlyoutBehavior="Flyout"
        >
-    <FlyoutItem Title="Filmler" FlyoutDisplayOptions="AsMultipleItems">
-        <Tab Title="Yabancı Filmler">
+
+    <Shell.Resources>
+        <Style x:Key="BaseStyle" TargetType="Element">
+            <Setter Property="Shell.BackgroundColor" Value="#2C3333" />
+            <Setter Property="Shell.FlyoutBackgroundColor" Value="#395B64" />
+            <Setter Property="Shell.TitleColor" Value="#2666CF" />
+            <Setter Property="Shell.DisabledColor" Value="Brown" />
+            <Setter Property="Shell.UnselectedColor" Value="Azure" />
+        </Style>
+        <Style x:Key="RedStyle" TargetType="Element" BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor" Value="Red" />
+        </Style>
+        <Style x:Key="GreenStyle" TargetType="Element" BasedOn="{StaticResource BaseStyle}">
+            <Setter Property="Shell.BackgroundColor" Value="Green" />
+        </Style>
+    </Shell.Resources>
+
+    <Shell.FlyoutHeader>
+        <controls:FlyoutHeader/>
+    </Shell.FlyoutHeader>
+    <FlyoutItem Title="Filmler" Icon="first.png" FlyoutDisplayOptions="AsMultipleItems" Style="{StaticResource BaseStyle}">
+        <Tab Title="Yabancı Filmler" Icon="menu.png" Style="{StaticResource BaseStyle}" Shell.NavBarIsVisible="True">
+            <ShellContent Title="Macera">
+                <navigation:FirstPage/>
+            </ShellContent>
+            <ShellContent Title="Komedi">
+                <ContentPage>
+                    <Label Text="Komedi filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent Title="Gerilim">
+                <ContentPage>
+                    <Label Text="Gerilim filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </ContentPage>
+            </ShellContent>
+            <ShellContent Title="Bilim Kurgu">
+                <ContentPage>
+                    <Label Text="Bilim kurgu filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </ContentPage>
+            </ShellContent>
+        </Tab>
+        <Tab Title="Yerli Filmler" Icon="menu.png" Style="{StaticResource RedStyle}" Shell.TabBarIsVisible="False">
             <ShellContent Title="Macera">
                 <ContentPage>
                     <Label Text="Macera filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
@@ -27,18 +71,56 @@
             </ShellContent>
         </Tab>
     </FlyoutItem>
-    <FlyoutItem Title="Diziler" >
-        <ShellContent Title="Komedi">
+    <FlyoutItem Title="Diziler" Icon="first.png" Style="{StaticResource GreenStyle}">
+        <ShellContent Title="Komedi" Icon="menu.png">
             <ContentPage>
                 <Label Text="Komedi dizileri" HorizontalOptions="Center" VerticalOptions="Center"/>
             </ContentPage>
         </ShellContent>
+        <ShellContent Title="Aksiyon" Icon="menu.png">
+            <ContentPage>
+                <Label Text="Aksiyon dizileri" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </ContentPage>
+        </ShellContent>
     </FlyoutItem>
-    <FlyoutItem Title="Belgeseller" FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Doğa Belgeselleri">
+    <FlyoutItem Title="Belgeseller" Icon="first.png" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Doğa Belgeselleri" Icon="menu.png">
             <ContentPage>
                 <Label Text="Doğa belgeseli" HorizontalOptions="Center" VerticalOptions="Center"/>
             </ContentPage>
         </ShellContent>
+        <ShellContent Title="Şehir Belgeselleri" Icon="menu.png">
+            <ContentPage>
+                <Label Text="Şehir belgeseli"  HorizontalOptions="Center" VerticalOptions="Center"/>
+            </ContentPage>
+        </ShellContent>
     </FlyoutItem>
+
+
 </Shell>
+
+
+<!--<TabBar>
+    <Tab Title="Komedi" Icon="menu.png">
+        <ShellContent Title="Komedi" ContentTemplate="{DataTemplate navigation:FirstPage}">
+        </ShellContent>
+        <ShellContent Title="Macera">
+            <navigation:SecondPage/>
+        </ShellContent>
+    </Tab>
+    <Tab Title="Çizgi" Icon="menu.png">
+        <ShellContent>
+            <ContentPage>
+                <Label Text="Çizgi filmler" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </ContentPage>
+        </ShellContent>
+    </Tab>
+    <ShellContent Title="Aksiyon" Icon="menu.png">
+        <ContentPage>
+            <Label Text="Aksiyon filmleri" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </ContentPage>
+    </ShellContent>
+</TabBar>-->
+
+
+

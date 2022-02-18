@@ -68,3 +68,4 @@ C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MultiplePreSelection.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Controls\FlyoutHeader.xaml.g.cs
