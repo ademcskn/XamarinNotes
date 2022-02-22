@@ -1,8 +1,10 @@
 ﻿using System;
+using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamarinMobile.CollectionViews;
 using XamarinMobile.Controls;
+using XamarinMobile.Databases;
 using XamarinMobile.DataBindings;
 using XamarinMobile.Lists;
 using XamarinMobile.Navigations;
@@ -12,9 +14,45 @@ namespace XamarinMobile
 {
     public partial class App : Application
     {
+        private const string ThemeKey = "Theme";
+        private const string NotificationsKey = "Notifications";
+        public static string FolderPath { get; private set; }
+        public string Theme
+        {
+            get
+            {
+                if (this.Properties.ContainsKey(ThemeKey))
+                {
+                    return Properties[ThemeKey].ToString();
+                }
+                return "";
+            }
+            set
+            {
+                Properties[ThemeKey] = value;
+            }
+        }
+
+        public bool Notifications
+        {
+            get
+            {
+                if (this.Properties.ContainsKey(NotificationsKey))
+                {
+                    return (bool)Properties[NotificationsKey];
+                }
+                return false;
+            }
+            set
+            {
+                Properties[NotificationsKey] = value;
+            }
+        }
         public App()
         {
             InitializeComponent();
+
+            FolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
 
             //MainPage = new AbsoluteDemo();
             //MainPage = new AbsoluteDemo2();
@@ -63,7 +101,10 @@ namespace XamarinMobile
             //MainPage = new DataBindingCollectionView();
             //MainPage = new MovieList();
             //MainPage = new NavigationPage(new Views.MainPage());
-            MainPage = new AppShell();
+            //MainPage = new AppShell();
+            //MainPage = new AppProperties();
+            //MainPage = new FileSystem();
+            MainPage = new NavigationPage(new NotePages());
         }
 
         protected override void OnStart()
