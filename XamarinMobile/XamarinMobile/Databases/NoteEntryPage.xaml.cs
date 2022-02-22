@@ -22,26 +22,35 @@ namespace XamarinMobile.Databases
         async void Handle_Save(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
-            if (string.IsNullOrWhiteSpace(note.FileName))
-            {
-                var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
-                File.WriteAllText(filename, note.Text);
-            }
-            else
-            {
-                File.WriteAllText(note.FileName, note.Text);
-            }
+            note.Date = DateTime.Now;
+            await App.Database.SaveNoteAsync(note);
             await Navigation.PopAsync();
+
+            //var note = (Note)BindingContext;
+            //if (string.IsNullOrWhiteSpace(note.FileName))
+            //{
+            //    var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
+            //    File.WriteAllText(filename, note.Text);
+            //}
+            //else
+            //{
+            //    File.WriteAllText(note.FileName, note.Text);
+            //}
+            //await Navigation.PopAsync();
         }
 
         async void Handle_Delete(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
-            if (File.Exists(note.FileName))
-            {
-                File.Delete(note.FileName);
-            }
+            await App.Database.DeleteNoteAsync(note);
             await Navigation.PopAsync();
+
+            //var note = (Note)BindingContext;
+            //if (File.Exists(note.FileName))
+            //{
+            //    File.Delete(note.FileName);
+            //}
+            //await Navigation.PopAsync();
         }
     }
 }

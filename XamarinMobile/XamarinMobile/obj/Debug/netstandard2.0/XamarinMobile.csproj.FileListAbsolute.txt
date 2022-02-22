@@ -1,6 +1,3 @@
-C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
-C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
-C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
@@ -24,6 +21,9 @@ C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Controls\TimePickerControl.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\CssPage.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Databases\AppProperties.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Databases\FileSystem.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Databases\NoteEntryPage.xaml.g.cs
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Databases\NotePages.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\DataBindings\AddContactsPage.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\DataBindings\BasicBindings.xaml.g.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\DataBindings\NotifyProperyChangedDemo.xaml.g.cs
@@ -65,11 +65,11 @@ C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
-C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Databases\FileSystem.xaml.g.cs
-C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Databases\NoteEntryPage.xaml.g.cs
-C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Databases\NotePages.xaml.g.cs

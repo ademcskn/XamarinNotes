@@ -19,19 +19,21 @@ namespace XamarinMobile.Databases
             InitializeComponent();
         }
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
 
-            var notes = new List<Note>();
+            listview.ItemsSource = await App.Database.GetNotesAsync();
 
-            var files = Directory.EnumerateFiles(App.FolderPath, "*.notes.txt");
-            foreach (var file in files)
-            {
-                notes.Add(new Note { FileName = file, Text = File.ReadAllText(file), Date = File.GetCreationTime(file) });
-            }
+            //var notes = new List<Note>();
 
-            listview.ItemsSource = notes.OrderBy(d => d.Date).ToList();
+            //var files = Directory.EnumerateFiles(App.FolderPath, "*.notes.txt");
+            //foreach (var file in files)
+            //{
+            //    notes.Add(new Note { FileName = file, Text = File.ReadAllText(file), Date = File.GetCreationTime(file) });
+            //}
+
+            //listview.ItemsSource = notes.OrderBy(d => d.Date).ToList();
         }
 
         async void OnNoteAddedClicked(object sender, EventArgs e)

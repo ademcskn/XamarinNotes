@@ -17,6 +17,22 @@ namespace XamarinMobile
         private const string ThemeKey = "Theme";
         private const string NotificationsKey = "Notifications";
         public static string FolderPath { get; private set; }
+        private static NoteDatabase database;
+
+        //Singleton Desing Pattern
+        public static NoteDatabase Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new NoteDatabase(Path.Combine(App.FolderPath,"NotesDb.db3"));
+                }
+                return database;
+            }
+        }
+        //Singleton Desing Pattern
+
         public string Theme
         {
             get
