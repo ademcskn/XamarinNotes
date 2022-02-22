@@ -4,15 +4,15 @@
              x:Class="XamarinMobile.Databases.NoteEntryPage"
              Padding="10,40">
     <StackLayout>
-        <Label Text="Notes" HorizontalOptions="Center" FontAttributes="Bold" />
-        <Editor Placeholder="Enter Note" HeightRequest="100" Text="{Binding Text}"/>
+        <Label Text="Notes" HorizontalOptions="Center" FontAttributes="Bold" FontSize="24"/>
+        <Editor Placeholder="Enter Note" HeightRequest="100" Text="{Binding Text}" FontSize="20"/>
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button Text="save" Clicked="Handle_Save" Grid.Column="0"/>
-            <Button Text="delete" Clicked="Handle_Delete" Grid.Column="1"/>
+            <Button Text="save" Clicked="Handle_Save" Grid.Column="0" BackgroundColor="Green" TextColor="White"/>
+            <Button Text="delete" Clicked="Handle_Delete" Grid.Column="1" BackgroundColor="Red" TextColor="White"/>
         </Grid>
     </StackLayout>
 </ContentPage>
