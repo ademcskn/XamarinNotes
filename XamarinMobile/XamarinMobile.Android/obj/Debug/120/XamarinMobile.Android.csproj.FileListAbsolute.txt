@@ -640,3 +640,4 @@ C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\ob
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\obj\Debug\120\android\assets\System.Buffers.dll
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\obj\Debug\120\android\assets\System.Memory.dll
 C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\obj\Debug\120\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\devel\source\repos\XamarinMobile\XamarinMobile\XamarinMobile.Android\obj\Debug\120\android\assets\Newtonsoft.Json.dll

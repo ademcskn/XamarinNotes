@@ -26,7 +26,7 @@ namespace XamarinMobile
             {
                 if (database == null)
                 {
-                    database = new NoteDatabase(Path.Combine(App.FolderPath,"NotesDb.db3"));
+                    database = new NoteDatabase(Path.Combine(App.FolderPath, "NotesDb.db3"));
                 }
                 return database;
             }
@@ -120,7 +120,8 @@ namespace XamarinMobile
             //MainPage = new AppShell();
             //MainPage = new AppProperties();
             //MainPage = new FileSystem();
-            MainPage = new NavigationPage(new NotePages());
+            //MainPage = new NavigationPage(new NotePages());
+            MainPage = new RestApi();
         }
 
         protected override void OnStart()

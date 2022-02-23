@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+X2RCwR1JGdrUyCEFxahpFYmUlucqYyNefgrmB8WdEI4UMHLcGno4FQ7SI1veNJ4YtBOI7fGZIDyBQ9wXEGD8Q==",
+  "dgSpecHash": "N9JVLvK+8SgfrMHqZA3lQA+xuYsRCF9p7LB94Tr8XfST3QJYbqky60vlGg9G+MxbqI6ltPOqG03PoaqauPYivg==",
   "success": true,
   "projectFilePath": "C:\\Users\\devel\\source\\repos\\XamarinMobile\\XamarinMobile\\XamarinMobile.Android\\XamarinMobile.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\devel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\devel\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\devel\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\devel\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
